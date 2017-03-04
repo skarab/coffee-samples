@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="simple_roll"
+	ProjectGUID="{C291D42C-D224-47A2-8A35-6F7331D26DF6}"
+	RootNamespace="simple_roll"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="win32 Debug|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			BuildLogFile="E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/win32-vs2008-debug/BuildLog.htm"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug vs2008 E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../"
+				ReBuildCommandLine="E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug vs2008 full E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../"
+				CleanCommandLine="E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug vs2008 clean E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../"
+				Output="E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/binaries/win32-vs2008-debug/simple_roll.dll"
+				PreprocessorDefinitions="_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;WIN32;WINDOWS;_DEBUG;DEBUG"
+				IncludeSearchPath="E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/source"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="win32 Release|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			BuildLogFile="E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/win32-vs2008-release/BuildLog.htm"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 release vs2008 E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../"
+				ReBuildCommandLine="E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 release vs2008 full E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../"
+				CleanCommandLine="E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 release vs2008 clean E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/build/temp/source//../../../"
+				Output="E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/binaries/win32-vs2008-release/simple_roll.dll"
+				PreprocessorDefinitions="_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;WIN32;WINDOWS;NDEBUG"
+				IncludeSearchPath="E:/repositories/coffee-master/projects/yhtstfo/assets/simple_roll.component/source"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<File
+			RelativePath="E:\repositories\coffee-master\projects\yhtstfo\assets\simple_roll.component\build\Jamfile.jam"
+			>
+		</File>
+		<File
+			RelativePath="E:\repositories\coffee-master\projects\yhtstfo\assets\simple_roll.component\source\component.cpp"
+			>
+		</File>
+		<File
+			RelativePath="E:\repositories\coffee-master\projects\yhtstfo\assets\simple_roll.component\source\component.h"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

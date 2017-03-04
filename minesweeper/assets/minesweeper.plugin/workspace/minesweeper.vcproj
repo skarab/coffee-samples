@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="minesweeper"
+	ProjectGUID="{13B82340-8DA4-4BC2-8A7A-A8BFD124E5A7}"
+	RootNamespace="minesweeper"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="win32 Debug|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			BuildLogFile="E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/win32-vs2008-debug/BuildLog.htm"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug vs2008 E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../"
+				ReBuildCommandLine="E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug vs2008 full E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../"
+				CleanCommandLine="E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug vs2008 clean E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../"
+				Output="E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/binaries/win32-vs2008-debug/minesweeper.dll"
+				PreprocessorDefinitions="_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;WIN32;WINDOWS;_DEBUG;DEBUG"
+				IncludeSearchPath="E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/source"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="win32 Release|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			BuildLogFile="E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/win32-vs2008-release/BuildLog.htm"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 release vs2008 E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../"
+				ReBuildCommandLine="E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 release vs2008 full E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../"
+				CleanCommandLine="E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 release vs2008 clean E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/build/temp/source//../../../"
+				Output="E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/binaries/win32-vs2008-release/minesweeper.dll"
+				PreprocessorDefinitions="_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;WIN32;WINDOWS;NDEBUG"
+				IncludeSearchPath="E:/repositories/coffee-master/projects/minesweeper/assets/minesweeper.plugin/source"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<File
+			RelativePath="E:\repositories\coffee-master\projects\minesweeper\assets\minesweeper.plugin\build\Jamfile.jam"
+			>
+		</File>
+		<File
+			RelativePath="E:\repositories\coffee-master\projects\minesweeper\assets\minesweeper.plugin\source\plugin.cpp"
+			>
+		</File>
+		<File
+			RelativePath="E:\repositories\coffee-master\projects\minesweeper\assets\minesweeper.plugin\source\plugin.h"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

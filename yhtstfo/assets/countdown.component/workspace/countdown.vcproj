@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="countdown"
+	ProjectGUID="{A8B4CDB8-3241-477F-A4F7-8EC3E82127D0}"
+	RootNamespace="countdown"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="win32 Debug|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			BuildLogFile="E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/win32-vs2008-debug/BuildLog.htm"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug vs2008 E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../"
+				ReBuildCommandLine="E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug vs2008 full E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../"
+				CleanCommandLine="E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug vs2008 clean E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../"
+				Output="E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/binaries/win32-vs2008-debug/countdown.dll"
+				PreprocessorDefinitions="_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;WIN32;WINDOWS;_DEBUG;DEBUG;USE_VOICE_SYNTHESIZER"
+				IncludeSearchPath="E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/source;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer.plugin/source;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer.plugin/source/voice;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer.plugin/source/espeak/src;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer.plugin/source/espeak/platforms/windows/windows_dll/src;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer/voice_synthesizer.plugin/source;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer/voice_synthesizer.plugin/source/voice;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer/voice_synthesizer.plugin/source/espeak/src;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer/voice_synthesizer.plugin/source/espeak/platforms/windows/windows_dll/src"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="win32 Release|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			BuildLogFile="E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/win32-vs2008-release/BuildLog.htm"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 release vs2008 E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../"
+				ReBuildCommandLine="E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 release vs2008 full E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../"
+				CleanCommandLine="E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../../../../../tools/python/python.exe E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 release vs2008 clean E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/build/temp/source//../../../"
+				Output="E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/binaries/win32-vs2008-release/countdown.dll"
+				PreprocessorDefinitions="_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;WIN32;WINDOWS;NDEBUG;USE_VOICE_SYNTHESIZER"
+				IncludeSearchPath="E:/repositories/coffee-master/projects/yhtstfo/assets/countdown.component/source;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer.plugin/source;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer.plugin/source/voice;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer.plugin/source/espeak/src;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer.plugin/source/espeak/platforms/windows/windows_dll/src;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer/voice_synthesizer.plugin/source;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer/voice_synthesizer.plugin/source/voice;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer/voice_synthesizer.plugin/source/espeak/src;E:/repositories/coffee-master/projects/yhtstfo/assets/voice_synthesizer/voice_synthesizer.plugin/source/espeak/platforms/windows/windows_dll/src"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<File
+			RelativePath="E:\repositories\coffee-master\projects\yhtstfo\assets\countdown.component\build\Jamfile.jam"
+			>
+		</File>
+		<File
+			RelativePath="E:\repositories\coffee-master\projects\yhtstfo\assets\countdown.component\source\component.cpp"
+			>
+		</File>
+		<File
+			RelativePath="E:\repositories\coffee-master\projects\yhtstfo\assets\countdown.component\source\component.h"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

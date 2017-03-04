@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "elevator", "elevator.vcproj", "{4A621AFE-2D59-43AE-A8D3-752597722EC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		win32 Debug|Win32 = win32 Debug|Win32
+		win32 Release|Win32 = win32 Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A621AFE-2D59-43AE-A8D3-752597722EC4}.win32 Debug|Win32.ActiveCfg = win32 Debug|Win32
+		{4A621AFE-2D59-43AE-A8D3-752597722EC4}.win32 Debug|Win32.Build.0 = win32 Debug|Win32
+		{4A621AFE-2D59-43AE-A8D3-752597722EC4}.win32 Release|Win32.ActiveCfg = win32 Release|Win32
+		{4A621AFE-2D59-43AE-A8D3-752597722EC4}.win32 Release|Win32.Build.0 = win32 Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

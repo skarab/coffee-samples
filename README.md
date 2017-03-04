@@ -1,0 +1,4 @@
+coffee-samples
+==============
+
+Sample projects

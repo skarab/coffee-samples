@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "teleporter_height", "teleporter_height.vcproj", "{48FF4CE2-28B9-4B4B-A779-E31B7B891DF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		win32 Debug|Win32 = win32 Debug|Win32
+		win32 Release|Win32 = win32 Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48FF4CE2-28B9-4B4B-A779-E31B7B891DF9}.win32 Debug|Win32.ActiveCfg = win32 Debug|Win32
+		{48FF4CE2-28B9-4B4B-A779-E31B7B891DF9}.win32 Debug|Win32.Build.0 = win32 Debug|Win32
+		{48FF4CE2-28B9-4B4B-A779-E31B7B891DF9}.win32 Release|Win32.ActiveCfg = win32 Release|Win32
+		{48FF4CE2-28B9-4B4B-A779-E31B7B891DF9}.win32 Release|Win32.Build.0 = win32 Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

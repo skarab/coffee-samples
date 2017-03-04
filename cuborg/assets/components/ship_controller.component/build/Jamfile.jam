@@ -1,0 +1,25 @@
+SubDir TOP ;
+SubInclude TOP : $(ROOT)/coffee ;
+SubInclude TOP : $(ROOT)/engine/build/coffee_engine_link ;
+
+LIBRARY_PATH = ../binaries/$(PLATFORM)-$(COMPILER)-$(CONFIG) ;
+TEMP_PATH = ../binaries/$(PLATFORM)-$(COMPILER)-$(CONFIG) ;
+C.OutputPostfix * : ;
+
+SubDir TOP ../source/ ;
+
+SOURCES =
+    component.h
+    component.cpp
+;
+
+AutoSourceGroup ship_controller : $(SOURCES) ;
+Workspace ship_controller : ship_controller ;
+
+LOCATE_TARGET = $(TEMP_PATH) ;
+
+C.LinkPrebuiltLibraries ship_controller : $(PREBUILT_LIBRARIES) ;
+
+C.OutputPath ship_controller : $(LIBRARY_PATH) ;
+C.OutputName ship_controller : ship_controller ;
+C.Library ship_controller : $(SOURCES) : shared ;

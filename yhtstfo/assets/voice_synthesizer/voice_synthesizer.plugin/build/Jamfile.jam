@@ -1,0 +1,89 @@
+SubDir TOP ;
+SubInclude TOP : $(ROOT)/coffee ;
+SubInclude TOP : $(ROOT)/engine/build/coffee_engine_link ;
+
+LIBRARY_PATH = ../binaries/$(PLATFORM)-$(COMPILER)-$(CONFIG) ;
+TEMP_PATH = ../binaries/$(PLATFORM)-$(COMPILER)-$(CONFIG) ;
+C.OutputPostfix * : ;
+
+SubDir TOP ../source/ ;
+
+C.IncludeDirectories * :
+    espeak/src/
+    espeak/platforms/windows/windows_dll/src/
+;
+
+SOURCES =
+    plugin.h
+    plugin.cpp
+    plugin_includes.h
+    voice/voice.h
+    voice/voice_effect.h
+    voice/voice_effect.cpp
+    voice/voice_gender.h
+    voice/voice_gender.cpp
+    voice/voice_language.h
+    voice/voice_language.cpp
+    voice/voice_settings.h
+    voice/voice_settings.cpp
+    voice/voice_synthesizer.h
+    voice/voice_synthesizer.cpp
+    espeak/platforms/windows/windows_dll/StdAfx.h
+    espeak/platforms/windows/windows_dll/src/speak_lib.h
+    espeak/platforms/windows/windows_dll/src/speech.h
+    espeak/platforms/windows/windows_dll/src/StdAfx.h
+    espeak/platforms/windows/windows_dll/src/stdint.h
+    espeak/src/debug.h
+    espeak/src/espeak_command.h
+    espeak/src/event.h
+    espeak/src/fifo.h
+    espeak/src/klatt.h
+    espeak/src/mbrowrap.h
+    espeak/src/phoneme.h
+    espeak/src/portaudio.h
+    espeak/src/portaudio18.h
+    espeak/src/portaudio19.h
+    espeak/src/sintab.h
+    espeak/src/sonic.h
+    espeak/src/speak_lib.h
+    espeak/src/speech.h
+    espeak/src/StdAfx.h
+    espeak/src/synthesize.h
+    espeak/src/translate.h
+    espeak/src/voice.h
+    espeak/src/wave.h
+    espeak/src/compiledict.cpp
+    espeak/src/debug.cpp
+    espeak/src/dictionary.cpp
+    espeak/src/event.cpp
+    espeak/src/fifo.cpp
+    espeak/src/intonation.cpp
+    espeak/src/klatt.cpp
+    espeak/src/numbers.cpp
+    espeak/src/phonemelist.cpp
+    espeak/src/readclause.cpp
+    espeak/src/setlengths.cpp
+    espeak/src/sonic.cpp
+    espeak/src/speak_lib.cpp
+    espeak/src/synthdata.cpp
+    espeak/src/synthesize.cpp
+    espeak/src/synth_mbrola.cpp
+    espeak/src/translate.cpp
+    espeak/src/tr_languages.cpp
+    espeak/src/voices.cpp
+    espeak/src/wave.cpp
+    espeak/src/wavegen.cpp
+    espeak/src/wave_pulse.cpp
+    espeak/src/wave_sada.cpp
+;
+
+AutoSourceGroup voice_synthesizer : $(SOURCES) ;
+Workspace voice_synthesizer : voice_synthesizer ;
+
+LOCATE_TARGET = $(TEMP_PATH) ;
+
+C.LinkPrebuiltLibraries voice_synthesizer : $(PREBUILT_LIBRARIES) ;
+
+C.OutputPath voice_synthesizer : $(LIBRARY_PATH) ;
+C.OutputName voice_synthesizer : voice_synthesizer ;
+C.Library voice_synthesizer : $(SOURCES) : shared ;

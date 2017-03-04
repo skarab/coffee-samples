@@ -1,0 +1,25 @@
+SubDir TOP ;
+SubInclude TOP : $(ROOT)/coffee ;
+SubInclude TOP : $(ROOT)/engine/build/coffee_engine_link ;
+
+LIBRARY_PATH = ../binaries/$(PLATFORM)-$(COMPILER)-$(CONFIG) ;
+TEMP_PATH = ../binaries/$(PLATFORM)-$(COMPILER)-$(CONFIG) ;
+C.OutputPostfix * : ;
+
+SubDir TOP ../source/ ;
+
+SOURCES =
+    component.h
+    component.cpp
+;
+
+AutoSourceGroup teleporter_height : $(SOURCES) ;
+Workspace teleporter_height : teleporter_height ;
+
+LOCATE_TARGET = $(TEMP_PATH) ;
+
+C.LinkPrebuiltLibraries teleporter_height : $(PREBUILT_LIBRARIES) ;
+
+C.OutputPath teleporter_height : $(LIBRARY_PATH) ;
+C.OutputName teleporter_height : teleporter_height ;
+C.Library teleporter_height : $(SOURCES) : shared ;

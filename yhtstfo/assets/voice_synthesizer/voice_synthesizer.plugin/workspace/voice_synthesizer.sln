@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "voice_synthesizer", "voice_synthesizer.vcproj", "{CF4A4B35-A7E7-4251-BDF7-894AC3CB4BF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		win32 Debug|Win32 = win32 Debug|Win32
+		win32 Release|Win32 = win32 Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF4A4B35-A7E7-4251-BDF7-894AC3CB4BF3}.win32 Debug|Win32.ActiveCfg = win32 Debug|Win32
+		{CF4A4B35-A7E7-4251-BDF7-894AC3CB4BF3}.win32 Debug|Win32.Build.0 = win32 Debug|Win32
+		{CF4A4B35-A7E7-4251-BDF7-894AC3CB4BF3}.win32 Release|Win32.ActiveCfg = win32 Release|Win32
+		{CF4A4B35-A7E7-4251-BDF7-894AC3CB4BF3}.win32 Release|Win32.Build.0 = win32 Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

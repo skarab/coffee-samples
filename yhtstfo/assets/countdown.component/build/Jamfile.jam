@@ -1,0 +1,26 @@
+SubDir TOP ;
+SubInclude TOP : $(ROOT)/coffee ;
+SubInclude TOP : $(ROOT)/engine/build/coffee_engine_link ;
+SubInclude TOP : ../../voice_synthesizer/voice_synthesizer.plugin/build/voice_synthesizer_link ;
+
+LIBRARY_PATH = ../binaries/$(PLATFORM)-$(COMPILER)-$(CONFIG) ;
+TEMP_PATH = ../binaries/$(PLATFORM)-$(COMPILER)-$(CONFIG) ;
+C.OutputPostfix * : ;
+
+SubDir TOP ../source/ ;
+
+SOURCES =
+    component.h
+    component.cpp
+;
+
+AutoSourceGroup countdown : $(SOURCES) ;
+Workspace countdown : countdown ;
+
+LOCATE_TARGET = $(TEMP_PATH) ;
+
+C.LinkPrebuiltLibraries countdown : $(PREBUILT_LIBRARIES) ;
+
+C.OutputPath countdown : $(LIBRARY_PATH) ;
+C.OutputName countdown : countdown ;
+C.Library countdown : $(SOURCES) : shared ;

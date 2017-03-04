@@ -1,0 +1,22 @@
+
+C.LinkDirectories * :
+    ../../voice_synthesizer.plugin/binaries/$(PLATFORM)-$(COMPILER)-$(CONFIG)
+    ../../voice_synthesizer/voice_synthesizer.plugin/binaries/$(PLATFORM)-$(COMPILER)-$(CONFIG)
+;
+
+C.Defines * : USE_VOICE_SYNTHESIZER ;
+
+PREBUILT_LIBRARIES +=
+    voice_synthesizer
+;
+
+C.IncludeDirectories * :
+    ../../voice_synthesizer.plugin/source/
+    ../../voice_synthesizer.plugin/source/voice/
+    ../../voice_synthesizer.plugin/source/espeak/src/
+    ../../voice_synthesizer.plugin/source/espeak/platforms/windows/windows_dll/src/
+    ../../voice_synthesizer/voice_synthesizer.plugin/source/
+    ../../voice_synthesizer/voice_synthesizer.plugin/source/voice/
+    ../../voice_synthesizer/voice_synthesizer.plugin/source/espeak/src/
+    ../../voice_synthesizer/voice_synthesizer.plugin/source/espeak/platforms/windows/windows_dll/src/
+;

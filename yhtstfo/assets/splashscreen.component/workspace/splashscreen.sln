@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "splashscreen", "splashscreen.vcproj", "{EDD1C27B-167E-4993-A5F5-61C2C6EA1F1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		win32 Debug|Win32 = win32 Debug|Win32
+		win32 Release|Win32 = win32 Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDD1C27B-167E-4993-A5F5-61C2C6EA1F1D}.win32 Debug|Win32.ActiveCfg = win32 Debug|Win32
+		{EDD1C27B-167E-4993-A5F5-61C2C6EA1F1D}.win32 Debug|Win32.Build.0 = win32 Debug|Win32
+		{EDD1C27B-167E-4993-A5F5-61C2C6EA1F1D}.win32 Release|Win32.ActiveCfg = win32 Release|Win32
+		{EDD1C27B-167E-4993-A5F5-61C2C6EA1F1D}.win32 Release|Win32.Build.0 = win32 Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,47 @@
+Coffee started
+Choosing instructionset : GENERIC
+Windows:  6.1.7601, Service pack 1.0, Product Type 1
+Finding graphics mode...
+Falling back to desktop graphics mode...
+Graphics mode set to 1366x768 32bpp
+Using 32 Bits per pixel
+VerticalSync is disabled
+OpenGL version : 4.4.0 NVIDIA 344.48
+Checking required extension ARB_shading_language_100
+Checking required extension ARB_vertex_program
+Checking required extension ARB_vertex_shader
+Checking required extension ARB_fragment_program
+Checking required extension ARB_fragment_shader
+Checking required extension ARB_shader_objects
+Checking required extension EXT_texture_sRGB
+Checking required extension ARB_multitexture
+Checking required extension ARB_texture_cube_map
+Checking required extension EXT_texture_filter_anisotropic
+Checking required extension ARB_texture_float
+Checking required extension EXT_texture_array
+Checking required extension EXT_packed_float
+Checking required extension EXT_packed_depth_stencil
+Checking required extension ARB_vertex_buffer_object
+Checking required extension EXT_framebuffer_object
+Checking required extension EXT_framebuffer_blit
+Checking required extension ARB_texture_rectangle
+Required graphics extensions checked!
+Anisotropic filtering set to 0x
+Compiling shader /import/shaders/tiled.shader
+Compiling shader /coffee/import/shaders/lights/shadows.shader
+Compiling shader /coffee/import/shaders/filters/soft_shadows_h.shader
+Compiling shader /coffee/import/shaders/filters/soft_shadows_v.shader
+Compiling shader /coffee/import/shaders/ambient.shader
+Compiling shader /coffee/import/shaders/sky/skyprobe.shader
+Compiling shader /coffee/import/shaders/tonemap/compute_luminance.shader
+Compiling shader /coffee/import/shaders/tonemap/eye_adaptation.shader
+Compiling shader /coffee/import/shaders/tonemap/generate_mipmap.shader
+Compiling shader /coffee/import/shaders/others/picker.shader
+Compiling shader /coffee/import/shaders/default.shader
+Compiling shader /coffee/import/shaders/lights/spot.shader
+Compiling shader /coffee/import/shaders/tonemap/linear.shader
+Compiling shader /coffee/import/shaders/lights/directional.shader
+Compiling shader /coffee/import/shaders/default_blend.shader
+Compiling shader /coffee/import/shaders/lights/point.shader
+Quit requested
+E:/repositories/coffee-master/engine/source/kernel/resource/chunk/resource_chunk.cpp(32) : ERROR_CODE_ResourceManager: Destroying referenced resource

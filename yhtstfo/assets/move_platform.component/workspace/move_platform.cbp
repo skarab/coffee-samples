@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="move_platform" />
+		<Option makefile_is_custom="1" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="" />
+		<MakeCommands>
+			<Build command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug mingw E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+			<CompileFile command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug mingw E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+			<Clean command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug mingw clean E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+			<DistClean command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug mingw clean E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+			<AskRebuildNeeded command="" />
+			<SilentBuild command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug mingw E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+		</MakeCommands>
+		<Build>
+			<Target title="Debug">
+				<Option output="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../binaries/win32-mingw-debug/move_platform.dll" prefix_auto="0" extension_auto="0" />
+				<Option type="1" />
+				<MakeCommands>
+					<Build command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug mingw E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+					<CompileFile command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug mingw E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+					<Clean command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug mingw clean E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+					<DistClean command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug mingw clean E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 debug mingw E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+				</MakeCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../binaries/win32-mingw-release/move_platform.dll" prefix_auto="0" extension_auto="0" />
+				<Option type="1" />
+				<MakeCommands>
+					<Build command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 release mingw E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+					<CompileFile command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 release mingw E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+					<Clean command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 release mingw clean E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+					<DistClean command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 release mingw clean E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command="E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/python/python.exe E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../../../../../tools/scripts/build.py workspace win32 release mingw E:/mercurial/coffee/projects/yhtstfo/assets/move_platform.component/build/temp/source//../../../" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:\mercurial\coffee\projects\yhtstfo\assets\move_platform.component\build\Jamfile.jam">
+			<Option virtualFolder="" />
+		</Unit>
+		<Unit filename="E:\mercurial\coffee\projects\yhtstfo\assets\move_platform.component\source\component.cpp">
+			<Option virtualFolder="" />
+		</Unit>
+		<Unit filename="E:\mercurial\coffee\projects\yhtstfo\assets\move_platform.component\source\component.h">
+			<Option virtualFolder="" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
